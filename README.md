@@ -1,1 +1,2 @@
 # EECS-project4
+A machine learning text classifier that automatically categorizes Piazza forum posts into topic labels (e.g., "exam", "lecture", "instructor") using the Naive Bayes algorithm with bag-of-words features. Built in C++ with heavy use of STL containers (map, set, vector), file I/O via CSV parsing, and log-probability math to avoid floating-point underflow. Supports both a train-only diagnostic mode and a full train-test prediction mode with accuracy reporting.
